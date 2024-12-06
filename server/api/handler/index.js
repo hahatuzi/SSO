@@ -9,8 +9,6 @@ exports.test = function (req,res) {
 exports.getCustomer = function (req, res) {
   const {userId} = req.body
   const data = customer[userId]
-  console.log(req)
-  console.log('aegrfe')
   if(!data){
     return res.json({
       code:1,

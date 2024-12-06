@@ -16,7 +16,7 @@ const ACCESS_TOKEN_OPTIONS = {
   expiresIn: 60
 }
 const REFRESH_TOKEN_OPTIONS = {
-  expiresIn: 60 * 2
+  expiresIn: 60 * 3
 }
 
 module.exports = {
